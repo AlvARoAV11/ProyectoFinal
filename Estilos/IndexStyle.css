@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background: url("../Assets/Casa.jpg") no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header .container {
+  max-width: 700px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.header .btn {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+nav {
+  background-color: #343a40;
+}
+
+.btn_comenzar {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.btn_comenzar:hover {
+  background-color: black;
+  color: #6C757D;
+}
+
+.header h1,
+.header p,
+.header .btn {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
