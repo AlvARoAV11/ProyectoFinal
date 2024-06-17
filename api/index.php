@@ -29,12 +29,12 @@
     </nav>
 
     <div id="background-carousel">
-        <img class="bg-image active" src="./../../assets/Casa.jpg" alt="Fondo 1">
-        <img class="bg-image" src="./../../assets/Casa1.jpg" alt="Fondo 2">
-        <img class="bg-image" src="./../../assets/hotel.jpg" alt="Fondo 3">
-        <img class="bg-image" src="./../../assets/hotel2.jpg" alt="Fondo 3">
-        <img class="bg-image" src="./../../assets/hotel1.jpg" alt="Fondo 3">
-        <img class="bg-image" src="./../../assets/Rest.webp" alt="Fondo 3">
+        <img class="bg-image active" src="./../../assets/imagenes/Casa.jpg" alt="Fondo 1">
+        <img class="bg-image" src="./../../assets/imagenes/Casa1.jpg" alt="Fondo 2">
+        <img class="bg-image" src="./../../assets/imagenes/hotel.jpg" alt="Fondo 3">
+        <img class="bg-image" src="./../../assets/imagenes/hotel2.jpg" alt="Fondo 3">
+        <img class="bg-image" src="./../../assets/imagenes/hotel1.jpg" alt="Fondo 3">
+        <img class="bg-image" src="./../../assets/imagenes/Rest.webp" alt="Fondo 3">
     </div>
 
     <header class="header text-center">
