@@ -10,16 +10,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Validaciones datos
     if (empty($email) || empty($password)) {
-        header('Location: ../index.php?error=empty_fields');
+        header('Location: ./../index.php?error=empty_fields');
         exit();
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header('Location: ../index.php?error=invalid_email');
+        header('Location: ./../index.php?error=invalid_email');
         exit();
     } else {
 
         if ($email == 'admin@gmail.com' && $password == 'admin') {
             $_SESSION['admin_logged_in'] = true;
-            header("Location: ../Admin/admin_home.php");
+            header("Location: ./../Admin/admin_home.php");
             exit;
         }
 
@@ -32,10 +32,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['usuario_username'] = $usuario->username;
             $_SESSION['usuario_email'] = $usuario->email;
             
-            header('Location: ../home.php');
+            header('Location: ./../home.php');
             exit();
         } else {
-            header('Location: ../index.php?error=login_failed');
+            header('Location: ./../index.php?error=login_failed');
             exit();
         }
     }

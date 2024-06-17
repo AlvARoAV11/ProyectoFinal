@@ -7,7 +7,7 @@
     <title>Reserva de Establecimientos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./../Assets/css/IndexStyle.css">
+    <link rel="stylesheet" href="./../../Assets/css/IndexStyle.css">
 </head>
 
 <body>
@@ -69,7 +69,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="loginForm" action="Process/dologin.php" method="post">
+                    <form id="loginForm" action="./../Process/dologin.php" method="post">
                         <div class="form-group">
                             <label for="loginEmail">Correo Electrónico</label>
                             <input type="email" class="form-control" id="loginEmail" name="email" required>

@@ -17,6 +17,6 @@
   "routes": [
     { "src": "/(.*)", "dest": "api/$1" },
     { "src": "/css/(.*)", "dest": "Assets/css/$1" },
-    { "src": "/images/(.*)", "dest": "Assets/images/$1" }
+    { "src": "/images/(.*)", "dest": "Assets/imagenes/$1" }
   ]
 }
