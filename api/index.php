@@ -28,6 +28,15 @@
         </div>
     </nav>
 
+    <div id="background-carousel">
+        <img class="bg-image active" src="Assets/Casa.jpg" alt="Fondo 1">
+        <img class="bg-image" src="Assets/Casa1.jpg" alt="Fondo 2">
+        <img class="bg-image" src="Assets/hotel.jpg" alt="Fondo 3">
+        <img class="bg-image" src="Assets/hotel2.jpg" alt="Fondo 3">
+        <img class="bg-image" src="Assets/hotel1.jpg" alt="Fondo 3">
+        <img class="bg-image" src="Assets/Rest.webp" alt="Fondo 3">
+    </div>
+
     <header class="header text-center">
         <div class="container">
             <h1 class="display-4">Reserva tu lugar favorito</h1>
